@@ -56,11 +56,17 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # User system and authencation
 gem 'devise', '~> 4.2'
 
-#bootstrap
+# Bootstrap
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 
-#jquery
+# Jquery
 gem 'jquery-rails', '~> 4.0', '>= 4.0.5'
 
-#vote system
+# Vote system
 gem 'acts_as_votable', '~> 0.10.0'
+
+# Comments system
+gem 'simple_form', '~> 3.2', '>= 3.2.1'
+
+# div_for method
+gem 'record_tag_helper', '~> 1.0'
