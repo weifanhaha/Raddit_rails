@@ -61,3 +61,6 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 
 #jquery
 gem 'jquery-rails', '~> 4.0', '>= 4.0.5'
+
+#vote system
+gem 'acts_as_votable', '~> 0.10.0'
